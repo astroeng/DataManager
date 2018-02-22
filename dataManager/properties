@@ -1,0 +1,14 @@
+PROPERTY__Weather_Station_ID:127
+PROPERTY__Weather_Station_Altitude:176.31
+PROPERTY__Status_Upload_Interval:600000
+PROPERTY__Weather_Upload_Interval:120000
+PROPERTY__UDP_Receive_Port:19875
+PROPERTY__Multicast_Port:25879
+PROPERTY__Multicast_Remote_Address:239.1.1.1
+PROPERTY__Multicast_Bind_Address:192.168.23.72
+PROPERTY__TCP_Retry_Limit:5
+PROPERTY__TCP_Retry_Interval:45000
+PROPERTY__TCP_Timeout:10000
+PROPERTY__Enable_CSV:true
+PROPERTY__Enable_Multicast:true
+PROPERTY__Enable_TCP:true
