@@ -1,0 +1,3 @@
+#!/bin/sh
+
+more $1 | grep -i weather | grep -iv message

@@ -1,0 +1,21 @@
+#!/usr/bin/gnuplot
+
+set datafile separator ','
+set terminal png size 800,600
+#set xrange [0:22320]
+set xtics 0,360,22320 in rotate
+
+set yrange [0:40]
+set output 'windspeed.png'
+plot 'weather.csv' using 13 with points,\
+     'weather.csv' using 11 with points
+
+set yrange [0:2]
+set output 'rainfall.png'
+plot 'weather.csv' using 15 with lines
+
+set yrange [-50:150]
+set output 'atmosphere.png'
+plot 'weather.csv' using 4 with lines,\
+     'weather.csv' using 5 with lines,\
+     'weather.csv' using 6 with lines
